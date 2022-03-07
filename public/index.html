@@ -7,37 +7,96 @@
     <title>facebook login</title>
     <link rel="stylesheet" href="tailwind.css">
     <style>
-.box{
- margin: 8% auto;
- width: 360px
-}
-.input-box{
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px 0;
-    width: 90%;
-    border: 1px solid #999;
-    outline: none;}
-  .btn:hover{
-      background-color: rgb(146, 146, 230);
-  }
+        .box{
 
-    </style>
-</head>
-<body class="bg-blue-200">
-    <div class="text-center bg-white box p-10 rounded-md  ">
+            margin-left: 800px;
+            /* padding-top: 16px;
+            /* padding-right: 1px; */ 
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 10px;
+            margin-top: 100px;
+            
+        }
+       .input-box{
+           width: 378px;
+           border-width: 2px;
+           border-radius: 5px;
+           padding: 15px;
+       }
+       .FG:hover{
+           color: blue;
+           
+           
+       }
+       .FG{
+           border-bottom-width: 1px; 
+           border-bottom-color: rgba(0, 0, 0, 0.377);
+           padding-bottom: 20px;
+       }
+       .btnt{
+           width: 190px;
+        margin-left: 109px;
+    padding: 10px;}
+       .btnt:hover{
+           background-color: green
+       }
+
+       .btn:hover{
+           background-color: blue;
+       }
+     .textt{
+         margin-left: 830px;
+         margin-top: 20px;
+     }
+     .logo{
+         position: absolute;
+         right: 990px;
+       top:50px;
         
-<div class="text-blue-200  text-4xl ">facebook</div>
-<div class="mt-10">
-    
-       <input type="email" class="border-2 border-black p-2  rounded-md input-box" placeholder="your Email"> 
-    
-       <input type="password" class="border-2 border-black p-2 input-box  rounded-md mt-2 " placeholder="your password">
-    </div>
-       <div class="mt-10"><p><span><input type="checkbox"></span> agree to the terms of services</p>
-       <button type="button"  class="bg-blue-200 p-2 rounded-md mt-2 text-gray-200 btn">Login</button>
+     }
+     .pic{
+         width:180px;
+         margin-top: 10px;
+         background-color: white;
+         padding-bottom: 40px;
+         height: 25vh;
+     }
+     .name{
+         position: absolute;
+         top:270px;
+         z-index: 1;
+         margin-left: 50px;
+         font-size: large;
+         color: gray;
+     }
+    </style>
+   
+</head>
+<body class="bg-gray-200 ">
+    <div class="contain">
+        <!-- <div class="text-left"> -->
+<div class=" logo"><div class="text-blue-500  font-bold text-4xl">facebook</div>
+<div class="mt-4 text-4xl">Recent Logins</div>
+<div class="mt-1 text-gray-500">click your picture or add account</div>
+<a href="#"><img class="pic rounded-md" src="images/bg.png" alt=""><span class="name">Papa Yaw</span> </a>
 
-</div>
+
+
+
+
+        </div>
+<div class=" p-2 justify-end flex flex-col mr-40 mt-30 pl-40 bg-white box gap-5 shadow-lg " >
+    <input type="email" class="input-box mr-40   " placeholder="Email or Password">
+    <input type="password" class="input-box mr-40  " placeholder="Password">
+    <button class="bg-blue-500 p-3 rounded-md btn text-white text-2xl ">log In</button>
+    <a href="#" class="text-center text-blue-300 FG 
+    ">Forgot Password?</a> 
+    <button class="bg-green-500  text-white rounded-md mt-5  btnt mb-4  ">Create new account</button>
+
+ </div>
+
+ <div class="space-x-1  textt"><span class="font-bold">create a Page</span><span>for a celebrity, brand or business</span></div>
     </div>
 </body>
-</html>
+</hrml
